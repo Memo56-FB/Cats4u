@@ -1,0 +1,89 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+:root{
+    --colorPrincipal: #F49338;
+    --colorHeader:#010101;
+    --colorTextos:#ECEBD5;
+    --colorOcasional:#9B9B9B;
+    --colorTitulos:#FFF;
+    --fuenteTitulos:'Roboto', sans-serif;
+    --fuenteTexto:'Noto Sans JP', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+header{
+    background-color: var(--colorHeader);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+}
+.leftNav , .rightNav{
+    display: inline-block;
+    height: 100%;
+}
+.leftNav{
+    width: 70%;
+}
+
+body{
+    background-color: var(--colorPrincipal);
+    position: absolute;
+}
+.imagenHead{
+    display: inline-block;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-image: url(../Imagenes/Icono.png) ;
+    position: relative;
+    margin: 0 0 0 8%;
+}
+.mainTitle{
+    display: inline-block;
+    margin:0 0 0 50px;
+    font-family: var(--fuenteTitulos);
+    color: var(--colorTitulos);
+}
+.cajaLinks{
+    display: inline-block;
+    margin: 0;
+}
+.link{
+    color: var(--colorTitulos);
+    margin-left: 15px;
+    text-decoration: none;
+    line-height: 10px;
+}
+.link > span{
+    font-family: var(--fuenteTexto);
+}
+.seleccionado{
+    color: var(--colorOcasional);
+}
+.cajaRedesSociales{
+    display: inline-block;
+    color: var(--colorTitulos);
+    height: 100%;
+}
+.textoRedesSociales{
+    color: var(--colorTitulos);
+    font-family: var(--fuenteTexto);
+
+    
+}
+.iconosRedesSociales{
+    width: 20px;
+    margin: 0 0 0 20px;
+
+    
+}
+

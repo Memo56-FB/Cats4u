@@ -1,0 +1,48 @@
+.cajaExterior{
+    padding: 50px 10% 0 10%;
+    width: 100%;
+    height: 100%;
+}
+.fotoRaza{
+    position: static;
+    display: inline-block;
+    width: 45%;
+    height: 40%;
+    margin: 3% 1%;
+    box-shadow: 10px 10px 20px black;
+
+}
+.imagen{
+    position: static;
+    border: 2px solid var(--colorHeader);
+    width: 100;
+    height: 100%;
+}
+.imagen > img{
+    width: 100%;
+    height: 100%;
+}
+.descripcionRaza{
+    background-color: var(--colorTextos);
+    position: relative;
+    padding: 0 10px;
+    width: 100%;
+    height: 40%;
+    border: 2px solid var(--colorHeader);
+    bottom: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 10px 10px 20px black;
+}
+.descripcionRaza > h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:var(--fuenteTitulos);
+    font-size: 2em;
+}
+.descripcionRaza > p {
+    margin-top: 3%;
+    font-family: var(--fuenteTexto);
+    font-size: 1.3em;
+}

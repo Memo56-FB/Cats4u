@@ -1,0 +1,56 @@
+:root{
+    --colorPrincipal: #F49338;
+    --colorHeader:#010101;
+    --colorTextos:#ECEBD5;
+    --colorOcasional:#9B9B9B;
+    --colorTitulos:#FFF;
+}
+body, html{
+    position: static;
+    /* overflow: hidden; */
+}
+.pantalla{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Imagenes/gatoFondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+header{
+    /* position: ;  */
+    z-index: 100;
+}
+
+.textoGato{
+    font-family: var(--fuenteTitulos);
+    color: var(--colorTitulos);
+    position: absolute;
+    margin-top:10%;
+    margin-left: 10%;
+    width: 30%;
+    text-align: center;
+    font-size:3em;
+}
+.botonGato{
+    display: inline-block;
+    margin-top: 370px;
+    border-radius: 10%;
+    margin-left: 20%;
+    width: 200px;
+    height: 150px;
+    font-size: 4rem;
+    background-image: url(../Imagenes/adopta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* AQUI ESTA EL GATO CON EL CARTEL */
+.gatoCartelCaja{
+    position: fixed;
+    display: none;
+    width: 100px;
+}
+.gatoCartelImg{
+    width: 100px;
+}
